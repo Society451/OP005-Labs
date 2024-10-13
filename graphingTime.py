@@ -1,10 +1,10 @@
-import matplotlib.pyplot as plt
 import numpy as np
+import matplotlib.pyplot as plt
 
 # Data for each height
 heights = np.array([3, 4, 5])
-average_times = np.array([0.402, 0.490, 0.552])  # Updated average for 3 ft
-std_devs = np.array([0.025, 0.042, 0.025])  # Use previously calculated std deviations
+average_times = np.array([0.4346, 0.4983, 0.552])  # Use calculated averages from the first script
+std_devs = np.array([0.025, 0.042, 0.025])  # Update with actual standard deviations from the first script
 
 # Create the plot
 plt.figure(figsize=(12, 6))
