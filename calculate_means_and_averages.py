@@ -1,7 +1,7 @@
 import numpy as np
 
-# Data for 3ft trials
-trial_3ft = [0.385, 0.381, 0.422, 0.399, 0.397, 0.427]
+# Data for 3ft trials (updated)
+trial_3ft = [0.385, 0.381, 0.322, 0.399, 0.397, 0.327]
 average_3ft = np.mean(trial_3ft)
 std_dev_3ft = np.std(trial_3ft)
 
